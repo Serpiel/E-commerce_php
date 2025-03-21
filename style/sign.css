@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #0c041d;
+    background-size: cover;
+    color: #fff;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+
+.sign-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #0c041d;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.753);
+}
+
+.content {
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+form .InputBox {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+form .InputBox input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+}
+
+form .InputBox input:focus,
+form .InputBox input:valid {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.753);
+}
+
+form .InputBox i {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.75);
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+form .InputBox input:focus + i,
+form .InputBox input:valid + i {
+    transform: translateY(-18px);
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.753);
+}
+
+.InputBox input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    background: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.3s;
+}
+
+.InputBox input[type="submit"]:hover {
+    background: #87ffe7;
+    color: #000;
+}
+
+.register-link:hover {
+    transition: 0.3s;
+    color: #87ffe7;
+}
+
+
+

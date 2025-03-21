@@ -1,0 +1,146 @@
+body {
+    background-color: #1e1e1e;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #ffc415;
+}
+
+h2 {
+    color: #ff4000;
+}
+
+.table-container {
+    margin: 40px auto; /* Espace entre les tables */
+    padding: 20px;
+    width: 90%;
+    max-width: 1200px;
+    background-color: #2b2b2b;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: #222;
+    color: white;
+}
+
+th, td {
+    border: 1px solid #444;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #00AEEF;
+    color: white;
+}
+
+td {
+    background-color: #333;
+}
+
+.actions {
+    text-align: center;
+}
+
+.actions .edit {
+    text-align: center;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: #0c67d0;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.actions .edit:hover {
+    background-color: #0a58a8;
+}
+
+.actions .delete {
+    text-align: center;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: #d81d16;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.actions .delete:hover {
+    background-color: #b71a14;
+}
+
+.add {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: #0cad0f;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.add:hover {
+    background-color: #0a820c;  
+}
+
+input[type="number"], input[type="text"], input[type="date"], input[type="password"] {
+    text-align: center;
+    width: 50%;
+    padding: 12px;
+    margin: 8px 0;
+    background-color: #333;
+    border: 1px solid #444;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="number"]:focus, input[type="text"]:focus, input[type="date"]:focus, input[type="password"]:focus {
+    border-color: #00AEEF;
+    outline: none;
+    background-color: #444;
+}
+
+label {
+    font-size: 18px;
+    margin-bottom: 8px;
+    display: inline-block;
+    color: #fff;
+}
+
+.form-container {
+    width: 100%;
+    max-width: 60px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #2b2b2b;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.submit-btn {
+    padding: 12px 20px;
+    background-color: #0cad0f;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+}
+
+.submit-btn:hover {
+    background-color: #0a820c;
+}
